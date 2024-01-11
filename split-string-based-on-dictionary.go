@@ -55,8 +55,8 @@ func validateArray(strArr []string) string {
 
 	if len(possibleCombinations) > 0 {
 		possibleSplit := possibleCombinations[0]
-		fmt.Println("word", word)
-		fmt.Println("dictionary", dictionary)
+		fmt.Println("word: ", strArr[0])
+		fmt.Println("dictionary: ", dictionary)
 		fmt.Println("possible split: ", possibleSplit)
 		return possibleSplit
 	}
